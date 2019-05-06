@@ -1,0 +1,38 @@
+//SCS 2106 Assignment 4 Takehome Assignment - 16001184 - A.Rangoda
+
+1. Run Main.java file
+
+2. When allocating memory, give user inputs as process id and the memory block size seperated by space in each line
+
+Ex:
+
+1 6000
+2 2000
+3 3000
+4 1000
+
+
+3. When freeing memory, type the process id of the block 
+
+Ex: 
+
+2
+4
+
+4. When you want to terminate the process enter 'x' in the command line
+
+5. Then the memory stack will be displayed with the start id, end id process id for each memory block. 
+   Free memory spaces will be displayed as 'Free Space'
+
+Ex:
+
+Start Id      End Id       Process Id
+
+0k        -   -1k        : P0
+0k        -   5999k      : P1
+6000k     -   6999k      : P7
+7000k     -   7999k      : Free Space
+8000k     -   10999k     : P3
+11000k    -   11999k     : P6
+12000k    -   14999k     : P5
+15000k    -   25000k     : Free Space
